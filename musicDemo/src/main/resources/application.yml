@@ -1,0 +1,19 @@
+server:
+  port: 8000
+
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql:///music?useSSL=false&useUnicode=true&characterEncoding=utf8
+
+
+logging:
+  level:
+    com.example: debug
+
+
+jpa:
+  database: mysql
+  show-sql: true
+
